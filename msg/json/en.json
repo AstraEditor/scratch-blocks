@@ -281,5 +281,7 @@
     "NEW_BROADCAST_MESSAGE": "New message",
     "NEW_BROADCAST_MESSAGE_TITLE": "New message name:",
     "BROADCAST_MODAL_TITLE": "New Message",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "message1",
+    "ERROR": "Unknown opcode: '%1'",
+    "ERROR_UNKNOWN_OPCODE": "UNKNOWN OPCODE: %1"
 }
