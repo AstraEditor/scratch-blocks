@@ -238,7 +238,7 @@ Blockly.Flyout.prototype.GAP_Y = Blockly.Flyout.prototype.MARGIN;
  * @type {number}
  * @const
  */
-Blockly.Flyout.prototype.SCROLLBAR_PADDING = 2;
+Blockly.Flyout.prototype.SCROLLBAR_PADDING = 7;
 
 /**
  * Width of flyout.
@@ -287,7 +287,7 @@ Blockly.Flyout.prototype.MAX_WIDTH = 800;
  * @type {number}
  * @const
  */
-Blockly.Flyout.prototype.RESIZE_HANDLE_WIDTH = 15;
+Blockly.Flyout.prototype.RESIZE_HANDLE_WIDTH = 5;
 
 /**
  * Vertical offset of flyout.
