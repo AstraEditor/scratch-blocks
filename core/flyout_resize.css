@@ -1,0 +1,19 @@
+/* Flyout Resize Handle Styles */
+
+.blocklyFlyoutResizeHandle {
+  cursor: col-resize;
+  transition: background-color 0.2s ease;
+}
+
+.blocklyFlyoutResizeHandle:hover {
+  background-color: rgba(77, 151, 255, 0.3) !important;
+}
+
+.blocklyFlyoutResizeHandle:active {
+  background-color: rgba(77, 151, 255, 0.5) !important;
+}
+
+/* RTL support */
+.blocklyFlyout.RTL .blocklyFlyoutResizeHandle {
+  cursor: col-resize;
+}
