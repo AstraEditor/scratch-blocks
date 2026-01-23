@@ -725,6 +725,12 @@ Blockly.BlockSvg.prototype.showContextMenu_ = function(e) {
   if (this.customContextMenu) {
     this.customContextMenu(menuOptions);
   }
+
+  // Add partial turbo mode option for hat blocks (only if not in flyout)
+  if (!block.isInFlyout) {
+    menuOptions.push(Blockly.ContextMenu.partialTurboMode(block));
+  }
+
   Blockly.ContextMenu.show(e, menuOptions, this.RTL);
   Blockly.ContextMenu.currentBlock = this;
 };

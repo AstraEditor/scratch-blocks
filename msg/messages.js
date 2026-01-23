@@ -357,3 +357,7 @@ Blockly.Msg.NEW_BROADCAST_MESSAGE = 'New message';
 Blockly.Msg.NEW_BROADCAST_MESSAGE_TITLE = 'New message name:';
 Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
+
+// AstraEditor
+Blockly.Msg.ENABLE_PARTIAL_TURBOMODE = 'Enable Partial TurboMode for this script'
+Blockly.Msg.UNABLE_PARTIAL_TURBOMODE = 'Unable Partial TurboMode for this script'
