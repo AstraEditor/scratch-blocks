@@ -359,5 +359,6 @@ Blockly.Msg.BROADCAST_MODAL_TITLE = 'New Message';
 Blockly.Msg.DEFAULT_BROADCAST_MESSAGE_NAME = 'message1';
 
 // AstraEditor
-Blockly.Msg.ENABLE_PARTIAL_TURBOMODE = 'Enable Partial TurboMode for this script'
-Blockly.Msg.UNABLE_PARTIAL_TURBOMODE = 'Unable Partial TurboMode for this script'
+Blockly.Msg.ENABLE_PARTIAL_TURBOMODE = 'Enable Partial TurboMode for this script';
+Blockly.Msg.UNABLE_PARTIAL_TURBOMODE = 'Unable Partial TurboMode for this script';
+Blockly.Msg.PARTIAL_TURBOMODE_COMMENT = 'You can change the number after "Turbo: " to make it run faster, but this will result in a decrease in frame rate. \nIf it is "[Turbo]", it will set the Turbo number to 10. You can also enter "[Turbo: auto]" to let the VM automatically determine the Turbo number.'

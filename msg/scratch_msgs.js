@@ -22677,7 +22677,10 @@ Blockly.ScratchMsgs.locales["zh-cn"] =
     "NEW_BROADCAST_MESSAGE": "新消息",
     "NEW_BROADCAST_MESSAGE_TITLE": "新消息的名称：",
     "BROADCAST_MODAL_TITLE": "新消息",
-    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1"
+    "DEFAULT_BROADCAST_MESSAGE_NAME": "消息1",
+    "UNABLE_PARTIAL_TURBOMODE": "不再局部加速这个脚本",
+    "ENABLE_PARTIAL_TURBOMODE": "局部加速这个脚本",
+    "PARTIAL_TURBOMODE_COMMENT": "您可以修改“Turbo:”后的数字以加快这个脚本的运行速度，但这会导致帧率下降。\n若设置为“[Turbo]”，则会将Turbo数固定为10。您还可以输入“[Turbo: auto]”让虚拟机自动确定Turbo数值。"
 };
 
 Blockly.ScratchMsgs.locales["zh-tw"] =

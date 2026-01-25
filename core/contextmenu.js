@@ -385,12 +385,12 @@ Blockly.ContextMenu.partialTurboMode = function (block) {
       if (isEnabled) {
         block.setCommentText(null);
       } else {
-        block.setCommentText('[Turbo:auto]\nYou can change the number after "Turbo: " to make it run faster, but this will result in a decrease in frame rate. \nIf it is "[Turbo]", it will set the Turbo number to 10. You can also enter "[Turbo: auto]" to let the VM automatically determine the Turbo number.');
+        block.setCommentText(`[Turbo:auto]\n${Blockly.Msg.PARTIAL_TURBOMODE_COMMENT}`);
         if (block.comment) {
           block.comment.setVisible(true);
           // Resize the comment to fit the text
           if (block.comment.setSize) {
-            block.comment.setSize(600, 300);
+            block.comment.setSize(600, 150);
           }
         }
       }
