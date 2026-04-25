@@ -1,5 +1,9 @@
-# TurboWarp/scratch-blocks
+# AstraEditor/scratch-blocks
 
+## develop-builds
+
+This branch has been merge to `develop`.
+<!--
 ## Playgrounds
 
  - **Vertical blocks**: https://turbowarp.github.io/scratch-blocks/tests/vertical_playground_compressed.html
@@ -48,6 +52,7 @@ Scratch Blocks brings together two different programming "grammars" that the Scr
 ## Documentation
 The "getting started" guide including [FAQ](https://scratch.mit.edu/developers#faq) and [design documentation](https://github.com/LLK/scratch-blocks/wiki/Design) can be found in the [wiki](https://github.com/LLK/scratch-blocks/wiki).
 
+
 ## Donate
-We provide [Scratch](https://scratch.mit.edu) free of charge, and want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, and resource development efforts. Donations of any size are appreciated. Thank you!
+We provide [Scratch](https://scratch.mit.edu) free of charge, 和 want to keep it that way! Please consider making a [donation](https://secure.donationpay.org/scratchfoundation/) to support our continued engineering, design, community, 和 resource development efforts. Donations of any size are appreciated. Thank you!
 -->
